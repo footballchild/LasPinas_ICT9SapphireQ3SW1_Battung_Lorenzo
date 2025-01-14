@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CURRENCY EXCHANGER</title>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"; rel="stylesheet">
+  	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>;
+
+
+  	<style>
+  		body{
+  			background-image: url('MANI.jpg');
+  			background-repeat: no-repeat;
+  			background-attachment: fixed; 
+  			background-size: 100% 100%;
+  			text-align: center;
+  		}
+
+  		 
+
+  	</style>
+
+</head>
+<body>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h1>
+	CONVERT PESO INTO CURRENCY
+</h1>
+<br>
+<br>
+<h2> 
+	<span style="border: 2px solid black; padding: 10px;">
+    	100
+    </span> 
+</h2>
+<br>
+<br>
+	<h1>
+		BY PRESSING THE BUTTONS BELOW
+	</h1>
+
+	<div class="container">
+		
+		<p id="display"> </p>
+
+
+			<button type="button" onclick= "var dollar = 171; var peso =100; document.getElementById('display').innerHTML = dollar/peso + '$' ;"> Dollars </button>
+
+			<button type="button" onclick= "var pounds = 140; var peso =100; document.getElementById('display').innerHTML = pounds/peso + '£' ;"> Pounds </button>
+
+			<button type="button" onclick= "var yen = 26900; var peso =100; document.getElementById('display').innerHTML = yen/peso + '¥' ;"> Yen </button>
+
+			<button type="button" onclick= "var Ruppee = 1.47; var peso =100; document.getElementById('display').innerHTML = Ruppee*peso + '₹' ;"> Ruppee </button>
+<br>
+<br>
+			<button type="button" onclick= "var euro = 167; var peso =100; document.getElementById('display').innerHTML = euro/peso + '₣' ;"> Euro </button>
+
+			<button type="button" onclick= "var ruble = 1.75; var peso =100; document.getElementById('display').innerHTML = ruble*peso + '₽' ;"> Ruble </button>
+	</div>
+
+</body>
+</html>
